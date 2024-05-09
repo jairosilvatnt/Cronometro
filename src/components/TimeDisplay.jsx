@@ -1,9 +1,11 @@
+/* eslint-disable */
+import React from "react"
 
-function TimeDisplay() {
+function TimeDisplay({ time }) {
   return (
     <div>
       <h1 className="border-2 p-5 m-5 text-5xl rounded-lg bg-white  
-      ">00:00</h1>
+      ">{time}</h1> 
     </div>
   )
 }
